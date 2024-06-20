@@ -23,6 +23,7 @@ Status Page Aggregator is an open-source project specifically designed for statu
 
 ## Example
 
+<img width="1272" alt="Screenshot 2024-06-20 at 5 07 01 PM" src="https://github.com/StatusGator/status-page-aggregator/assets/925/83f48cbb-f68b-453e-b3d5-f2710efd7573">
 
 ## Installation
 
