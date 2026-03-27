@@ -1,8 +1,14 @@
 ---
+"1Password": https://status.1password.com
 "Cloudflare": https://www.cloudflarestatus.com
 "Datadog": https://status.datadoghq.com
+"Dropbox": https://status.dropbox.com
+"Figma": https://status.figma.com
 "GitHub": https://www.githubstatus.com
-"Sendgrid": https://status.sendgrid.com
-"Trello": https://trello.status.atlassian.com
-"Zoom": https://status.zoom.us
+"HashiCorp": https://status.hashicorp.com
+"OpenAI": https://status.openai.com
+"SendGrid": https://status.sendgrid.com
 "Litmus": https://status.litmus.com
+"Trello": https://trello.status.atlassian.com
+"Vercel": https://www.vercel-status.com
+"Zoom": https://status.zoom.us
