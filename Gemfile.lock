@@ -1,46 +1,56 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    base64 (0.2.0)
-    bigdecimal (3.1.8)
-    ffi (1.16.3)
-    httparty (0.21.0)
+    base64 (0.3.0)
+    bigdecimal (4.1.0)
+    csv (3.3.5)
+    ffi (1.17.4)
+    ffi (1.17.4-arm64-darwin)
+    httparty (0.22.0)
+      csv
       mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
-    json (2.7.2)
+    json (2.19.3)
+    logger (1.7.0)
     mini_mime (1.1.5)
-    multi_xml (0.7.1)
-      bigdecimal (~> 3.1)
-    mustermann (3.0.0)
+    multi_xml (0.8.1)
+      bigdecimal (>= 3.1, < 5)
+    mustermann (3.0.4)
       ruby2_keywords (~> 0.0.1)
-    nio4r (2.7.3)
-    puma (6.4.2)
+    nio4r (2.7.5)
+    puma (6.6.1)
       nio4r (~> 2.0)
-    rack (2.2.9)
-    rack-protection (3.2.0)
+    rack (3.2.5)
+    rack-protection (4.2.1)
       base64 (>= 0.1.0)
-      rack (~> 2.2, >= 2.2.4)
+      logger (>= 1.6.0)
+      rack (>= 3.0.0, < 4)
+    rack-session (2.1.1)
+      base64 (>= 0.1.0)
+      rack (>= 3.0.0)
     ruby2_keywords (0.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
-    sinatra (3.2.0)
+    sinatra (4.2.1)
+      logger (>= 1.6.0)
       mustermann (~> 3.0)
-      rack (~> 2.2, >= 2.2.4)
-      rack-protection (= 3.2.0)
+      rack (>= 3.0.0, < 4)
+      rack-protection (= 4.2.1)
+      rack-session (>= 2.0.0, < 3)
       tilt (~> 2.0)
-    tilt (2.3.0)
+    tilt (2.7.0)
 
 PLATFORMS
   arm64-darwin-23
   ruby
 
 DEPENDENCIES
-  httparty (~> 0.21.0)
-  json (~> 2.6)
-  puma (~> 6.3)
-  rack (~> 2.2)
+  httparty (~> 0.22.0)
+  json (~> 2.9)
+  puma (~> 6.5)
+  rack (~> 3.1)
   sassc
-  sinatra (~> 3.0)
+  sinatra (~> 4.1)
 
 BUNDLED WITH
    2.5.3
