@@ -1,6 +1,6 @@
 # Status Page Aggregator
 
-Status Page Aggregator is an open-source project specifically designed for status page aggregation, providing a centralized and comprehensive view of the statuses of various services. Built with Vue.js and Ruby, this powerful tool enables you to effortlessly monitor the health and incidents of multiple services in one place. Whether you're managing a small startup or a large enterprise, Status Page Aggregator simplifies the process of status page aggregation, ensuring you stay informed about the performance and reliability of your critical services.
+Status Page Aggregator is an open-source project specifically designed for status page aggregation, providing a centralized and comprehensive view of the statuses of various services. Built with Vue.js and Ruby, this powerful status aggregator enables you to effortlessly monitor the health and incidents of multiple services in one place. Whether you're managing a small startup or a large enterprise, Status Page Aggregator simplifies the process of status page aggregation, ensuring you stay informed about the performance and reliability of your critical services.
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@ Status Page Aggregator is an open-source project specifically designed for statu
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
-## Features
+## Features of Status Page Aggregator
 
 - Fetch and display status of multiple services
 - Support for any status page hosted by Atlassian Statuspage
@@ -80,6 +80,10 @@ Please ensure your code follows the project's coding standards and includes appr
 ## License
 
 This project is licensed under the MIT License.
+
+## Keywords
+
+Keywords: status page aggregator, status page aggregation, how to aggregate status pages, uptime status pages, service status checker, status alert system, downtime tracking tool, cloud service status tracker. 
 
 ## Acknowledgements
 
