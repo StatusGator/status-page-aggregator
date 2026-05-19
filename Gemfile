@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'httparty', '~> 0.22.0'
-gem 'json', '~> 2.9'
+gem 'json', '~> 2.19'
 gem 'puma', '~> 6.5'
 gem 'rack', '~> 3.1'
 gem 'sassc'

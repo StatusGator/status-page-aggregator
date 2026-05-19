@@ -10,7 +10,7 @@ GEM
       csv
       mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
-    json (2.19.3)
+    json (2.19.5)
     logger (1.7.0)
     mini_mime (1.1.5)
     multi_xml (0.8.1)
@@ -46,7 +46,7 @@ PLATFORMS
 
 DEPENDENCIES
   httparty (~> 0.22.0)
-  json (~> 2.9)
+  json (~> 2.19)
   puma (~> 6.5)
   rack (~> 3.1)
   sassc
