@@ -2,18 +2,18 @@ GEM
   remote: https://rubygems.org/
   specs:
     base64 (0.3.0)
-    bigdecimal (4.1.0)
+    bigdecimal (4.1.2)
     csv (3.3.5)
     ffi (1.17.4)
     ffi (1.17.4-arm64-darwin)
-    httparty (0.22.0)
+    httparty (0.24.2)
       csv
       mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
     json (2.19.8)
     logger (1.7.0)
     mini_mime (1.1.5)
-    multi_xml (0.8.1)
+    multi_xml (0.9.1)
       bigdecimal (>= 3.1, < 5)
     mustermann (3.0.4)
       ruby2_keywords (~> 0.0.1)
@@ -45,7 +45,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  httparty (~> 0.22.0)
+  httparty (~> 0.24.2)
   json (~> 2.19)
   puma (~> 6.5)
   rack (~> 3.1)
