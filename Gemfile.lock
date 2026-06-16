@@ -10,7 +10,7 @@ GEM
       csv
       mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
-    json (2.19.8)
+    json (2.19.9)
     logger (1.7.0)
     mini_mime (1.1.5)
     multi_xml (0.8.1)
